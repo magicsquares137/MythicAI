@@ -4,7 +4,7 @@ dry_run: true
 
 wandb:
   project: mythic-100m
-  entity: mythiclabs
+  entity: magicsquares137
   name: ${run_name}
   group: ${run_name}
   tags: ["mythicai", "small", "pretraining"]
