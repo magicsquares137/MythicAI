@@ -76,7 +76,7 @@ tokenizer:
   identifier: allenai/OLMo-2-1124-7B
   truncate_direction: right
 
-save_folder: /mnt/seagate/checkpoints/tests
+save_folder: /mnt/disk3/checkpoints/tests
 save_overwrite: false
 
 save_interval: 1000
