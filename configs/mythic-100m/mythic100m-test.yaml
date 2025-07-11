@@ -1,6 +1,6 @@
 run_name: mythic100m-test
 seed: 6198
-dry_run: true
+dry_run: false
 
 wandb:
   project: mythic-100m
