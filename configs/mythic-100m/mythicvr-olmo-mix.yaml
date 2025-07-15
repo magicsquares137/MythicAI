@@ -14,6 +14,7 @@ wandb:
 
 model:
   d_model: 768
+  init_device: cuda
   n_heads: 12
   n_layers: 12
   # mlp_hidden_size: 22016
@@ -100,9 +101,11 @@ precision: amp_bf16
 #   wrapping_strategy: by_block_and_size
 #   precision: mixed
 
+distributed_strategy: ddp
+
 ddp:
   grad_sync_mode: batch  # or "micro_batch"
-  find_unused_parameters: false
+  find_unused_params: false
 
 max_grad_norm: 1.0
 max_grad_norm_ratio: null
